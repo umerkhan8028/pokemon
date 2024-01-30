@@ -1,0 +1,257 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+.navtop{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(56, 55, 55, 0.74);
+}
+.navtop>.img{
+    padding: 4px;
+    border-left: 1px solid rgba(51, 47, 47, 0.336);
+    border-right: 1px solid rgba(51, 47, 47, 0.329);
+}
+
+
+
+.navtop>.img1{
+    padding-left: 4px;
+}
+
+header> .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    box-shadow: 0px 1px 3px rgba(56, 55, 55, 0.74);
+    height: 110px;
+}
+.img-icon>a{
+    text-decoration: none;
+    color: black;
+}
+.img-icon{
+    width: 125px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 3px;
+    
+}
+
+.img01{
+    border-bottom: 6px solid gray;
+    border-bottom-left-radius: 6px;
+}
+.img01:hover{
+    background-color:  gray;
+    color: white;
+}
+.img-icon>a:hover{
+    color: white;
+}
+.img02{
+    border-bottom: 6px solid rgb(252, 0, 0);
+}
+.img02:hover{
+    background-color: rgb(252, 0, 0);
+    color: white;
+}
+.img03{
+    background-color: rgb(252, 101, 0);
+    border-bottom: 6px solid rgb(252, 101, 0);
+    color: white;
+}
+.img03>a{
+    background-color: rgb(252, 101, 0);
+    color: white;
+}
+.img04{
+    border-bottom: 6px solid rgb(252, 236, 21);
+}
+.img04:hover{
+    background-color:  rgb(252, 236, 21);
+    color: white;
+}
+.img05{
+    border-bottom: 6px solid rgb(45, 160, 0);
+}
+.img05:hover{
+background-color: rgb(45, 160, 0);
+color: white;
+}
+.img06{
+    border-bottom: 6px solid rgb(11, 178, 255);
+}
+.img06:hover{
+    background-color: rgb(11, 178, 255);
+    color: white;
+}
+.img07{
+    border-bottom: 6px solid rgb(35, 31, 241);
+    border-bottom-right-radius: 6px;
+}
+.img07:hover{
+    background-color: rgb(35, 31, 241);
+    color: white;
+}
+
+/* main */
+
+.display-4{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* .table_parent {
+    width: 400px;
+    margin: 12px auto;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    grid-template-rows: repeat(3, minmax(100px, 200px));
+} */
+.table_parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px; */
+    margin-top: 20px;
+    /* margin-left: 150px; */
+    width:100vw;
+    display: grid;
+    /* grid-template-columns: 620px 320x; */
+    grid-template-areas: "one one two"
+                         "one one three"
+                         "four five six";
+    gap: 8px;
+    
+  }
+  .item-1{
+      border: 2px solid rgba(63, 62, 62, 0.514);
+    height: 350px;
+    width: 600px;
+    overflow: hidden;
+  }
+  .item{
+    border: 2px solid rgba(63, 62, 62, 0.514);
+    height: 175px;
+    width: 300px;
+    overflow: hidden;
+}
+.item-1>img{
+    height: 350px;
+    width: 600px;
+}
+.item>img{
+    height: 175px;
+    width: 300px;
+    overflow: hidden;
+}
+
+  .one{
+    grid-area: one;
+  }
+ .two{
+    
+    grid-area: two;
+ }
+ .three{
+    grid-area: three;
+   
+    
+ }
+ .four{
+    grid-area: four;
+    
+    
+ }
+ .five{
+    grid-area: five;
+   
+    
+ }
+ .six{
+    grid-area: six;
+    
+ }
+ .item-6>img{
+    border: 2px solid rgba(63, 62, 62, 0.514);
+    height: 150px;
+    width: 300px;
+    
+ }
+
+.fixed{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 290px;
+    left: -2px;
+    border: 2px solid black;
+    gap: 20px;
+    background-color: rgba(67, 128, 18, 0.986);
+    height: 120px;
+    box-shadow: 2px 2px 2px;
+    width: 60px;
+    border-radius: 10px ;
+    z-index: 100;
+}
+ .fixed-1:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
+.fixed-2:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
+
+
+
+@media (max-width:888px) {
+    header> .navbar{
+        display: grid;
+        grid-template-columns: repeat(7 ,1fr);
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .table_parent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width:70vw;
+        display: grid;
+        grid-template-areas: "one one two"
+                             "one one three"
+                             "four five six";
+        gap: 8px;
+        
+      }
+}
