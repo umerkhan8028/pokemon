@@ -174,7 +174,7 @@ color: white;
     grid-area: one;
   }
 .one:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .two{
@@ -182,7 +182,7 @@ color: white;
     grid-area: two;
  }
 .two:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .three{
@@ -191,7 +191,7 @@ color: white;
     
  }
 .three:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .four{
@@ -200,7 +200,7 @@ color: white;
     
  }
 .four:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .five{
@@ -209,7 +209,7 @@ color: white;
     
  }
 .five:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .six{
@@ -217,7 +217,7 @@ color: white;
     
  }
 .six:hover{
-    scale: 1.05;
+    scale: 1.01;
    cursor: pointer;
 }
  .item-6>img{
