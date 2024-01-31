@@ -173,29 +173,53 @@ color: white;
   .one{
     grid-area: one;
   }
+.one:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .two{
     
     grid-area: two;
  }
+.two:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .three{
     grid-area: three;
    
     
  }
+.three:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .four{
     grid-area: four;
     
     
  }
+.four:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .five{
     grid-area: five;
    
     
  }
+.five:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .six{
     grid-area: six;
     
  }
+.six:hover{
+    scale: 1.05;
+   cursor: pointer;
+}
  .item-6>img{
     border: 2px solid rgba(63, 62, 62, 0.514);
     height: 150px;
