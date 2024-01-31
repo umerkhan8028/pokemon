@@ -145,7 +145,7 @@ color: white;
     grid-template-areas: "one one two"
                          "one one three"
                          "four five six";
-    gap: 8px;
+    gap: 2px;
     
   }
   .item-1{
