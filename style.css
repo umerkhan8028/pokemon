@@ -226,6 +226,9 @@ color: white;
  .item-6>img{
     height: 150px;
     width: 300px;
+       border: 2px solid rgba(63, 62, 62, 0.514);
+    height: 150px;
+    overflow: hidden
 
  }
 
